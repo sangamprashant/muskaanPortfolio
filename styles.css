@@ -46,7 +46,7 @@ body {
   width: 700px;
   height: 1100px;
   background: linear-gradient(var(--one), var(--two));
-  margin: 50px auto;
+ margin: 50px auto; 
   box-shadow: 5px 5px 5px 5px #54585d33;
 }
 .left-box {
@@ -248,12 +248,10 @@ h1 span {
 }
 
 @media only screen and (max-width: 450px) {
-  body {
-    background-color: blue;
-  }
   .resume-main {
     width: 100%;
     height: 1200px;
+    margin: 0px auto; 
   }
   .left-box {
     height: 700px;
@@ -304,12 +302,10 @@ h1 span {
 }
 
 @media only screen and (min-width: 450px) and (max-width: 500px) {
-  body {
-    background-color: rgb(6, 7, 6);
-  }
   .resume-main {
     width: 100%;
     height: 1200px;
+    margin: 0px auto; 
   }
   .left-box {
     height: 700px;
@@ -361,12 +357,10 @@ h1 span {
 
 @media only screen and (max-width: 550px) {
 
-  body {
-    background-color: rgb(255, 0, 0);
-  }
   .resume-main {
     width: 100%;
     height: 1050px;
+    margin: 0px auto; 
   }
   .left-box {
     height: 700px;
@@ -423,12 +417,10 @@ h1 span {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 550px) and (max-width: 600px) {
-  body {
-    background-color: rgb(0, 255, 204);
-  }
   .resume-main {
     width: 100%;
     height: 1000px;
+    margin: 0px auto; 
   }
   .left-box {
     height: 700px;
